@@ -8,24 +8,24 @@ int main()
 	string str="";
 	cin >> str;
 	string first;
-	 for(int i=0;i<str.size();i++){
-		 first=str.substr(i,1);
-		 if(first=="A"){
-	 		A++;
-	 	}else	if(first=="B"){
-	 		B++;
-	 	}else	if(first=="C"){
-	 		C++;
-	 	}else	if(first=="D"){
-	 		D++;
-	 	}else	if(first=="E"){
-	 		E++;
-	 	}else	if(first=="F"){
-	 		F++;
-	 	}
+	for(int i=0;i<str.size();i++){
+		first=str.substr(i,1);
+		if(first=="A"){
+			A++;
+		}else	if(first=="B"){
+			B++;
+		}else	if(first=="C"){
+			C++;
+		}else	if(first=="D"){
+			D++;
+		}else	if(first=="E"){
+			E++;
+		}else	if(first=="F"){
+			F++;
+		}
 
-	 }
-	 cout<<A<<" "<<B<<" "<<C<<" "<<D<<" "<<E<<" "<<F<<endl;
+	}
+	cout<<A<<" "<<B<<" "<<C<<" "<<D<<" "<<E<<" "<<F<<endl;
 
 	return 0;
 }
