@@ -7,6 +7,9 @@ typedef vector<int> VI;
 typedef vector<string> VS;
 typedef pair<int, int> PII;
 typedef long long LL;
+const double EPS = 1e-10;
+const double PI  = acos(-1.0);
+
 
 int main(){
 	cin >>;

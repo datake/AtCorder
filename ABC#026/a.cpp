@@ -11,7 +11,6 @@ typedef long long LL;
 int main(){
 	int A, max=0;
 	cin >> A;
-
 	REP(i,A){
 		if(i*(A-i) > max){
 			max = i*(A-i);
