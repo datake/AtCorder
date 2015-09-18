@@ -29,16 +29,13 @@ int main()
 		cout << "-1"<< endl;
 	} else {
 		P=(double) B/(double) (SMax-SMin);
-		long long  temp1= (A*N-P*SSum)*100000000;
+		/*double  temp1= (A*N-P*SSum)*100000000;
 		Q=(double)temp1 / N;
-		Q=Q/100000000;
-		cout<<"min,max,sum"<<endl;
-		cout << SMin<<","<<SMax<<","<< SSum<< endl;
-		cout<<"P,Q"<<endl;
-	  cout << P<<" "<< Q << endl;
-		//	cout<<"temp1:"<<temp1<<endl;
-		//cout<<"point:"<<(double) A*N-P*SSum<<"/"<<N<<"="<<(A*N-P*SSum)/N<<endl;
-		cout<<"point:"<<(double) temp1<<"/"<<N<<"="<<temp1/N<<endl;
+		Q=Q/100000000;*/
+		Q=(A*N-P*SSum)/N;
+
+	  cout << P<<" ";
+		printf("%.10f\n", Q);
 	}
 
 	return 0;
