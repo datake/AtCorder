@@ -12,31 +12,28 @@ const double PI  = acos(-1.0);
 
 
 int main(){
-	VS vs;
 	int count=0;
-	/*
 	char c[100];
+	/* strstr */
 	REP(i,12){
 		cin>>c;
 		if(strstr(c,"r")){
 		 	count++;
 		}
 	}
-		*/
-		string str;
-		REP(i,12){
-			cin>>str;
-			REP(j,str.size()){
-				if(str[j]=='r'){
-					count++;
-					exit;
-				}
+
+	/* string */
+	string str;
+	count=0;
+	REP(i,12){
+		cin>>str;
+		REP(j,str.size()){
+			if(str[j]=='r'){
+				count++;
+				break;
 			}
 		}
-
-
-
-
+	}
   cout<<count<<endl;
   return 0;
 }
