@@ -13,7 +13,14 @@ const double PI  = acos(-1.0);
 
 int main(){
 	int N;
-	cin >>N;
-  cout<<<<endl;
+	cin >> N;
+	VI D(N);
+	REP(i,N){
+		cin>>D[i];
+	}
+	sort(D.begin(),D.end());
+	REP(i,N){
+		cout<<D[i]<<endl;
+	}
   return 0;
 }
