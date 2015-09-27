@@ -12,10 +12,9 @@ const double PI  = acos(-1.0);
 
 //400で割り切れるのと下3桁が400なのは全く別
 LL how_many(LL year){
-
-	cout<<"4で割り切れ:"<<year/4<<endl;
-	cout<<"100で割り切れ:"<<year/100<<endl;
-	cout<<"400で割り切れ:"<<year/400<<endl;
+	// cout<<"4で割り切れ:"<<year/4<<endl;
+	// cout<<"100で割り切れ:"<<year/100<<endl;
+	// cout<<"400で割り切れ:"<<year/400<<endl;
 	return year/4 - year/100 + year/400;
 }
 
